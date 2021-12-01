@@ -8,14 +8,18 @@ class HomeController extends Controller
 {
 
     public function index(){
-        return view('home');
+        return view('admin/dashboard');
     }
     
     public function about(){
-        return view('about');
+        return view('admin/about');
     }
     
     public function contact(){
-        return view('contact');
+        return view('admin/contact');
+    }
+
+    public function _404(){
+        return view('admin/404');
     }
 }
