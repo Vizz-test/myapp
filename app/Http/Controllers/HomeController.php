@@ -18,6 +18,7 @@ class HomeController extends Controller
     public function contact(){
         return view('admin/contact');
     }
+    //commit change
 
     public function _404(){
         return view('admin/404');
